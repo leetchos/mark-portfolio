@@ -10,8 +10,10 @@ require("channels")
 
 import "bootstrap"
 import"../stylesheets/application"
+import { slide } from '../stylesheets/slides';
 
 document.addEventListener("turbolinks:load", () => {
+  slide();
   $('[data-toggle="tooltip"]').tooltip()
   $('[data-toggle="tooltip"]').popover()
 })
