@@ -20,24 +20,7 @@
   </head>
 
   <body>
-    <header class="header">
-    <div class="container">
-      <div class="main-nav">
-      <img class="logo" src="https://res.cloudinary.com/dftzp2fex/image/upload/v1617052137/mark-logo_p2w8um.jpg">
-      <ul class="ul">
-        <%= link_to home_path do %>
-        <li>Home</li>
-        <% end %>
-        <%= link_to projects_path do %>
-        <li>Projects</li>
-        <% end %>
-        <%= link_to aboutme_path do %>
-        <li>About Me</li>
-        <% end %>
-      </ul>
-      </div>
-    </div>
-  </header>
+
     <%= yield %>
   </body>
 </html>
